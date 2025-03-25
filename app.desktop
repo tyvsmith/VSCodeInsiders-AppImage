@@ -1,8 +1,7 @@
 [Desktop Entry]
 Version=1.0
 Type=Application
-Name=VSCode-Insiders
-GenericName=VSCode-Insiders
+Name=Visual Studio Code - Insiders
 Comment=Code Editing. Redefined.
 Exec=code-insiders --unity-launch %F
 Icon=code-insiders
