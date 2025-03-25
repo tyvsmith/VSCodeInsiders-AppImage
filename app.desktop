@@ -4,8 +4,8 @@ Type=Application
 Name=VSCode-Insiders
 GenericName=VSCode-Insiders
 Comment=Code Editing. Redefined.
-Exec=code --unity-launch %F
-Icon=code
+Exec=code-insiders --unity-launch %F
+Icon=code-insiders
 Categories=TextEditor;Development;IDE;
 StartupWMClass=Code
 StartupNotify=true
@@ -15,5 +15,5 @@ Actions=new-empty-window;
 
 [Desktop Action new-empty-window]
 Name=New Empty Window
-Exec=code --new-window %F
-Icon=code
+Exec=code-insiders --new-window %F
+Icon=code-insiders
