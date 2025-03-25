@@ -9,7 +9,7 @@ on:
 
 jobs:
   version:
-    name: VSCode AppImage
+    name: VSCode Insiders AppImage
     runs-on: ubuntu-22.04
     env:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -21,7 +21,7 @@ jobs:
         id: build
         uses: valicm/appimage-bash@main
         with:
-          version_url: 'https://code.visualstudio.com/sha/download?build=stable\&os=linux-x64'
+          version_url: 'https://code.visualstudio.com/sha/download?build=insider\&os=linux-x64'
           version_file: 'resources/app/package.json'
           version_bash: 'jq -r  .version'
           version_icon: 'code.png'
