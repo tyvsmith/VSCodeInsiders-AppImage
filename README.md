@@ -1,12 +1,12 @@
-<h2 align="center">Visual Studio Code AppImage</h2>
-<p align="center">Unofficial / Community provided Visual Studio Code AppImage - stable release</p>
+<h2 align="center">Visual Studio Code - Insiders AppImage</h2>
+<p align="center">Unofficial / Community provided Visual Studio Code - Insiders AppImage - stable release</p>
 
-[![VSCode AppImage release](https://github.com/valicm/VSCode-AppImage/actions/workflows/release.yml/badge.svg?branch=main)](https://github.com/valicm/VSCode-AppImage/actions/workflows/release.yml)
+[![VSCode AppImage release](https://github.com/tyvsmith/VSCodeInsiders-AppImage/actions/workflows/release.yml/badge.svg?branch=main)](https://github.com/tyvsmith/VSCodeInsiders-AppImage/actions/workflows/release.yml)
 
 ## Get Started
 
-#### [Download the latest stable release](https://github.com/valicm/VSCode-AppImage/releases/latest)
-- stable release only
+#### [Download the latest stable release](https://github.com/tyvsmith/VSCodeInsiders-AppImage/releases/latest)
+- insiders release only
 - supports update of the AppImage
 
 ### Executing
@@ -15,15 +15,15 @@ Double-click the `*.AppImage` file and you are done!
 
 > In normal cases, the above method should work, but in some cases you 
 > need mark file as executable. You can do this using File manager -> right click > Properties > Allow Execution,
-> or by terminal issuing command `chmod +x VSCode-*.AppImage`
+> or by terminal issuing command `chmod +x VSCodeInsiders-*.AppImage`
 
 #### AppImageLauncher
 Use AppImageLauncher for better desktop integration ==> [download AppImageLauncher](https://github.com/TheAssassin/AppImageLauncher)
 
 #### Terminal
 ```bash
-chmod +x VSCode-*.AppImage
-./VSCode-*.AppImage
+chmod +x VSCodeInsiders-*.AppImage
+./VSCodeInsiders-*.AppImage
 ```
 
 #### Official source code
