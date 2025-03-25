@@ -1,15 +1,15 @@
 [Desktop Entry]
 Version=1.0
 Type=Application
-Name=VSCode
-GenericName=VSCode
+Name=VSCode-Insiders
+GenericName=VSCode-Insiders
 Comment=Code Editing. Redefined.
 Exec=code --unity-launch %F
 Icon=code
 Categories=TextEditor;Development;IDE;
 StartupWMClass=Code
 StartupNotify=true
-Keywords=vscode;Visual Studio Code;Code;
+Keywords=vscode;Visual Studio Code;Code;vscode-insiders;Visual Studio Code - Insiders;Code-Insiders
 MimeType=text/plain;inode/directory;application/x-code-workspace;
 Actions=new-empty-window;
 
