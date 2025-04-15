@@ -20,8 +20,8 @@ jobs:
         uses: tyvsmith/appimage-bash@main
         with:
           version_url: 'https://code.visualstudio.com/sha/download?build=insider\&os=linux-x64'
-          version_file: 'resources/app/package.json'
-          version_bash: 'jq -r .version | xargs -I{} echo "{}-$(jq -r .date ./resources/app/product.json)"'
+          version_file: 'resources/app/product.json'
+          version_bash: 'jq -r .date'
           version_icon: 'code.png'
       - name: Upload artifact
         if: ${{ env.APP_UPDATE_NEEDED == 'true' }}
