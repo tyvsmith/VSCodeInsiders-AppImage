@@ -23,7 +23,7 @@ jobs:
         with:
           version_url: 'https://code.visualstudio.com/sha/download?build=insider\&os=linux-x64'
           version_file: 'resources/app/product.json'
-          version_bash: 'jq -r .version+"-"+.date'
+          version_bash: 'jq -r ".version+\"-\"+.date"'
           version_icon: 'code.png'
       - name: Upload artifact
         if: ${{ env.APP_UPDATE_NEEDED == 'true' }}
