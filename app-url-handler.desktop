@@ -2,7 +2,7 @@
 Name=Visual Studio Code - Insiders - URL Handler
 Comment=Code Editing. Redefined.
 GenericName=Text Editor
-Exec=code-insiders --open-url %U
+Exec=code-insiders --no-sandbox --open-url %U
 Icon=code-insiders
 Type=Application
 NoDisplay=true

@@ -3,7 +3,7 @@ Version=1.0
 Type=Application
 Name=Visual Studio Code - Insiders
 Comment=Code Editing. Redefined.
-Exec=code-insiders %F
+Exec=code-insiders --no-sandbox %F
 Icon=code-insiders
 Categories=TextEditor;Development;IDE;
 StartupWMClass=Code - Insiders
@@ -14,5 +14,5 @@ Actions=new-empty-window;
 
 [Desktop Action new-empty-window]
 Name=New Empty Window
-Exec=code-insiders --new-window %F
+Exec=code-insiders --no-sandbox --new-window %F
 Icon=code-insiders
